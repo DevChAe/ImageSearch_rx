@@ -19,7 +19,7 @@ target 'ImageSearch_rx' do
 pod 'RxCocoa'
 pod 'RxSwift'
 pod 'RxAlamofire'
-pod 'RxKingfisher'
+pod 'Kingfisher'
 pod 'SwiftyAttributes'
 
 end

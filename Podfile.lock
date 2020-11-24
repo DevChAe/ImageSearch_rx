@@ -11,19 +11,15 @@ PODS:
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
-  - RxKingfisher (1.0.0):
-    - Kingfisher (~> 5)
-    - RxCocoa (~> 5)
-    - RxSwift (~> 5)
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
   - SwiftyAttributes (5.1.1)
 
 DEPENDENCIES:
+  - Kingfisher
   - RxAlamofire
   - RxCocoa
-  - RxKingfisher
   - RxSwift
   - SwiftyAttributes
 
@@ -33,7 +29,6 @@ SPEC REPOS:
     - Kingfisher
     - RxAlamofire
     - RxCocoa
-    - RxKingfisher
     - RxRelay
     - RxSwift
     - SwiftyAttributes
@@ -43,11 +38,10 @@ SPEC CHECKSUMS:
   Kingfisher: 6e1a13523fcb1c86924ce53affe4ac957e544d59
   RxAlamofire: aa949d345b1689eae02b7c7a217518878144f6df
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
-  RxKingfisher: 0f07678aca3e6a20143dfba67ec2d2c70d443a9a
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   SwiftyAttributes: e3e13891ddac3c62b3d7798d5c3969cea88e62bb
 
-PODFILE CHECKSUM: 0d17d60842bb573ebcace1f78c1d0b54c8376025
+PODFILE CHECKSUM: 242c0fd62c702427db90c0d60b87f3dd0b243a3e
 
 COCOAPODS: 1.10.0
